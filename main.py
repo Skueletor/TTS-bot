@@ -37,7 +37,7 @@ ABOUT_MSG = """Este bot fue hecho por:
 #Botones que aparecen en los mensajes
 START_BUTTONS = InlineKeyboardMarkup(
     [[
-        InlineKeyboardButton('Source 🧑‍💻', url='https://github.com'),
+        InlineKeyboardButton('Source 🧑‍💻', url='https://github.com/SkueletorTlg/TTS-bot'),
         InlineKeyboardButton('Devs 😎', callback_data='about')
     ],[
         InlineKeyboardButton('Ayuda 🆘', callback_data='help'),
@@ -49,7 +49,7 @@ START_BUTTONS = InlineKeyboardMarkup(
 )
 HELP_BUTTONS = InlineKeyboardMarkup(
     [[
-        InlineKeyboardButton('Source 🧑‍💻', url='https://github.com'),
+        InlineKeyboardButton('Source 🧑‍💻', url='https://github.com/SkueletorTlg/TTS-bot'),
         InlineKeyboardButton('Devs 😎', callback_data='about')
     ],[
         InlineKeyboardButton('Inicio 🏡', callback_data='home'),
@@ -61,7 +61,7 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
     [[
-        InlineKeyboardButton('Source 🧑‍💻', url='https://github.com'),
+        InlineKeyboardButton('Source 🧑‍💻', url='https://github.com/SkueletorTlg/TTS-bot'),
         InlineKeyboardButton('Devs 😎', callback_data='about')
     ],[
         InlineKeyboardButton('Ayuda 🆘', callback_data='help'),
