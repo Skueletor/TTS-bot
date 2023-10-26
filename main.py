@@ -3,9 +3,10 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 import time, tempfile, azure.cognitiveservices.speech as speechsdk
 
 #Todo sobre Pyrogram, el registro
-api_id = "14055159"
-api_hash = "bb6ef9e05341d820145de3f4d2bdbe1b"
-bot_token = "6543848254:AAGyuHPSJky6MkOCdyKTvRN_rKSpY7QVknI"
+#Registre sus propios datos desde my.telegram.org y su bot desde t.me/BotFather
+api_id = "API_ID"
+api_hash = "API_HASH"
+bot_token = "TOKEN"
 app = Client("mi_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 #Todo el registro de Azure con su API
