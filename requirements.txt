@@ -1,0 +1,7 @@
+pyrogram
+tgcrypto
+APScheduler
+azure-cognitiveservices-speech
+requests
+time
+tempfile
